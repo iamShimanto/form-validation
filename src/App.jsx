@@ -10,8 +10,6 @@ function App() {
   const [passwordErr, setPasswordErr] = useState("")
   const [submit, setSubmit] = useState("")
 
-
-
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -29,7 +27,6 @@ function App() {
     }
     
   }
-
 
   return (
     <>
